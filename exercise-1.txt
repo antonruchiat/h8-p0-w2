@@ -1,0 +1,65 @@
+
+1. Newton Second Law
+
+PROGRAM hitungResultanGaya
+DEKLARASI
+SET massa WITH VALUE 600
+SET percepatan WITH VALUE 2
+GET resultanGaya 
+
+ALGORITMA
+SET resultanGaya RESULT OF massa TIMES percepatan
+DISPLAY resultanGaya
+
+======================================================================================
+
+2. Tahun Kabisat
+
+PROGRMAM tahunKabisat
+DEKLARASI
+SET tahun
+
+ALGORIMTA
+IF tahun DIVIDED by 4 IS EQUAL 0 AND tahun DIVIDED by 100 IS EQUAL 0 THEN 
+SET tahun WITH VALUE OF tahun KABISAT
+DISPLAY "TAHUN KABISAT"
+IF tahun DIVIDED by 4 IS EQUAL 0 THEN
+DISPLAY "TAHUN KABISAT"
+ELSE IF tahun DIVIDED by 100 IS EQUAL 0 THEN
+DISPLAY "TAHUN KABISAT"
+ELSE IF tahun DIVIDED by 400 IS EQUAL 0 THEN
+DISPLAY "TAHUN KABISAT"
+
+=======================================================================================
+
+3. Laundry Day
+
+PROGRAM LaundryDry
+DEKLARASI
+SET pakaian WITH VALUE 20
+SET hitungPakaian WITH VALUE 0
+
+ALGORITMA
+FOR pakaian to 0 
+DECREMENT pakaian
+hitungPakaian IS EQUAL hitungPakaian + 1
+DiSPLAY hitungPakaian
+
+======================================================================================
+
+4. Periksa Kuku
+
+PROGRAM periksaKuku
+DEKLARASI
+SET siswa WITH VALUE "KUKU PANJANG"
+SET jumlahSiswa WITH VALUE 0
+
+ALGORITMA
+FOR jumlahSiswa to <= 40 
+INCREMENT jumlahSiswa
+IF siswa IS EQUAL "KUKU PANJANG" THEN
+DISPLAY "HUKUM"
+ELSE 
+DISPLAY "KAMU SISWA BAIK"
+
+======================================================================================
